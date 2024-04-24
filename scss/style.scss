@@ -1,12 +1,33 @@
 
+// colors variables 
+$primaryBtnColor: #000A17;
+
 
 // import scss
 
 @import "header";
 
-body {
-    background-color: #000A17;
+
+// common styles
+* , *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection {
+    background-color: #6E65E5;
+    color: #fff;
 }
 
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    background-color: #000A17;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 

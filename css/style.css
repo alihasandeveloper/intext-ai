@@ -1,3 +1,74 @@
+header {
+  padding: 20px;
+}
+header .navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+header .navber .brand-logo a {
+  text-decoration: none;
+}
+header .navber .nav-menu ul {
+  list-style: none;
+}
+header .navber .nav-menu ul li {
+  display: inline-flex;
+  gap: 80px;
+}
+header .navber .nav-btn {
+  display: flex;
+  gap: 28px;
+}
+header .navber .nav-btn .primary-btn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--button, #00B4D8);
+  background: transparent;
+  box-shadow: 2px 1px 10px #00B4D8;
+}
+header .navber .nav-btn .primary-btn a {
+  font-size: 16px;
+  line-height: normal;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1.1px;
+}
+header .navber .nav-btn .secondary-btn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(90deg, rgb(14, 186, 240) 0%, rgb(81, 122, 249) 100%);
+}
+header .navber .nav-btn .secondary-btn a {
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 1.1px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: #6E65E5;
+  color: #fff;
+}
+
 body {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
   background-color: #000A17;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
