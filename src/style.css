@@ -34,8 +34,13 @@
     .bg-secondary {
         background-color: #072B63;
     }
+
     .bg-blue {
         background-color: #00B4D880;
+    }
+
+    .bg-sky-blue {
+        background-color: #00B4D8;
     }
 
     .border-primary {
@@ -57,5 +62,22 @@
 
     .text-theme {
         color: #999;
+    }
+
+    .info-bg {
+        background: linear-gradient(180deg, rgba(2, 33, 81, 0.30) 0%, rgba(1, 11, 27, 0.30) 100%);
+    }
+
+    .info-bg-1 {
+        background: linear-gradient(180deg, #022151 0%, #010B1B 100%);
+    }
+
+    .gray {
+        color: #999999;
+    }
+
+    .features-box {
+        border: 1.5px solid rgba(153, 153, 153, 0.20);
+        background: var(--card2, linear-gradient(145deg, #020E20 9.5%, #03182F 90.5%));
     }
 }

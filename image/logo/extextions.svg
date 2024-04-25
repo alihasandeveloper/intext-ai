@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="extension-svgrepo-com 1" clip-path="url(#clip0_103_768)">
+<path id="Vector" d="M14.4359 7.14546C14.4359 4.4926 16.5865 2.34204 19.2393 2.34204C21.8923 2.34204 24.0428 4.4926 24.0428 7.14546V11.9489H36.0513V23.9574H40.8547C43.5076 23.9574 45.6581 26.1079 45.6581 28.7608C45.6581 31.4138 43.5076 33.5643 40.8547 33.5643H36.0513V45.5728H24.0428V40.7694C24.0428 38.1165 21.8923 35.966 19.2393 35.966C16.5865 35.966 14.4359 38.1165 14.4359 40.7694V45.5728H2.42737V33.5643H7.23079C9.88364 33.5643 12.0342 31.4138 12.0342 28.7608C12.0342 26.1079 9.88364 23.9574 7.23079 23.9574H2.42737V11.9489H14.4359V7.14546Z" stroke="url(#paint0_linear_103_768)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_103_768" x1="24.0428" y1="2.34204" x2="24.0428" y2="45.5728" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B4D8"/>
+<stop offset="1" stop-color="#1882DE"/>
+</linearGradient>
+<clipPath id="clip0_103_768">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>
