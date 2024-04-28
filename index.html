@@ -1,331 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body
-    class="bg-primary w-full bg-no-repeat bg-top bg-contain"
-    style="background-image: url(image/header-bg.png)"
-  >
-    <main class="w-10/12 m-auto">
-      <!-- heading start  -->
-      <header class="border-primary rounded-lg p-5 mt-6 backdrop-blur-xl">
-        <nav class="flex items-center justify-between">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-primary w-full bg-no-repeat bg-top bg-contain" style="background-image: url(image/header-bg.png)">
+  <main class="w-10/12 m-auto">
+    <!-- heading start  -->
+    <header class="border-primary rounded-lg p-5 mt-6 backdrop-blur-xl">
+      <nav class="flex items-center justify-between">
+        <div>
+          <a href="#">
+            <img src="image/brand-logo.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <ul class="flex items-center gap-20">
+            <li><a href="#">Products</a></li>
+            <li class="relative"><a href="#">Support</a>
+              <ul class="absolute border  rounded-lg backdrop-blur-xl d-none">
+                <li class="py-1 px-3"><a href="#">Contacts</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pricing</a></li>
+
+          </ul>
+        </div>
+        <div>
+          <div class="flex gap-7">
+            <button class="btn">
+              <a href="#" class="font-medium">Sing In</a>
+            </button>
+            <button class="btn bg-gradiant">
+              <a href="#" class="text-black font-medium">Get Started</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- header end  -->
+    <!-- hero section start  -->
+    <section>
+      <div class="hero-section mt-28">
+        <div class="text-center py-2">
+          <h2 class="text-white">Elevate Accessibility with</h2>
+          <h2 class="text-gradient mt-4">AI-Powered Alt Text</h2>
+        </div>
+        <div class="text-center mt-6">
+          <p class="text-theme">
+            Empowering Images with Intelligent Alt Text – AI-Powered
+            Accessibility Made Simple
+          </p>
+        </div>
+        <div class="flex gap-4 justify-center items-center mt-8">
+          <button class="btn bg-gradiant">
+            <a href="#" class="text-black font-medium">Free Trial</a>
+          </button>
+          <button class="btn">
+            <a href="#" class="font-medium">learn More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- File section start-->
+    <section class="mt-20">
+      <div
+        class="bg-no-repeat bg-center border border-transparent bg-cover rounded-3xl text-white w-11/12 mx-auto flex flex-col justify-center items-center py-10"
+        style="background-image: url(image/bg-1.png)">
+        <div class="w-4/12">
+          <div
+            class="border-dashed border-2 rounded-lg bg-secondary mt-10 py-5 px-20 flex flex-col justify-center items-center w-full">
+            <div class="mt-8">
+              <img src="image/file-icon.svg" alt="" />
+            </div>
+            <div class="text-white mt-3">
+              <h4 class="font-semibold text-center">
+                Click to select or drug add drop
+              </h4>
+              <p class="font-semibold text-xs text-center">
+                JPG, WebP, GIF, PNG (max 10 mb)
+              </p>
+            </div>
+            <div class="mt-5 flex items-center mb-8">
+              <button class="px-5 py-2 bg-blue rounded-lg shadow-xl">
+                <span class="font-thin"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span class="ps-1 font-semibold">Choose File</span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-8 w-full cursor-pointer">
+            <div class="border border-sky-400 py-2 px-8 flex rounded-lg items-center justify-between">
+              <p class="flex items-center">
+                <span class="text-white bg-sky-300 h-6 w-6 flex rounded-full items-center justify-center mr-3"><i
+                    class="fa-solid fa-plus"></i></span>
+                Add custom SEO Keywords
+              </p>
+              <span class="ms-2">Optional</span>
+            </div>
+          </div>
+          <button
+            class="border border-transparent bg-sky-blue py-2 text-black w-full mt-8 rounded-lg font-semibold text-lg">
+            Generate Alt Text
+            <span class="ps-1"><i class="fa-regular fa-hourglass"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- File section end-->
+    <!-- info section start  -->
+    <section>
+      <div class="py-28 w-10/12 mx-auto">
+        <div>
+          <h3 class="text-white text-center mb-20 text-6xl font-semibold">
+            How it works
+          </h3>
+        </div>
+        <div class="text-white sm:grid grid-cols-3 gap-12">
+          <div class="border rounded-lg relative border-transparent" style="z-index: 2">
+            <div class="w-full flex items-center justify-center h-64 info-bg">
+              <img src="image/info-icon.png" alt="" />
+            </div>
+            <div class="text-white text-center info-bg-1 rounded-lg py-6 px-4">
+              <h4 class="text-2xl mb-4 font-semibold">Upload an Image</h4>
+              <p class="gray">
+                Use one of our CMS integrations, browser extension, API, or
+                web interface. Optionally
+              </p>
+            </div>
+            <!-- <div class="absolute  " style="bottom: 50px;: 0; right: -030px z-index: 1;">
+                            <img src="image/design.png" alt="">
+                        </div> -->
+          </div>
+          <div class=" border border-transparent rounded-lg relative">
+            <div class="w-full flex items-center justify-center h-64 info-bg">
+              <img src="image/info-icon-1.png" alt="" />
+            </div>
+            <div class="text-white text-center info-bg-1 rounded-lg py-6 px-4">
+              <h4 class="text-2xl mb-4 font-semibold">Image Analysis</h4>
+              <p class="gray">
+                It only takes a second for our technology to examine the image
+                and work its magic.
+              </p>
+            </div>
+          </div>
+          <div class=" border rounded-lg border-transparent relative">
+            <div class="w-full flex items-center justify-center h-64 info-bg">
+              <img src="image/info-icon-2.png" alt="" />
+            </div>
+            <div class="text-white text-center info-bg-1 rounded-lg py-6 px-4">
+              <h4 class="text-2xl mb-4 font-semibold">Text Generation</h4>
+              <p class="gray">
+                We generate an accurate description of the image, ready to be
+                used on your site.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- info section end  -->
+    <!-- features section start  -->
+
+    <section class="py-28 bg-no-repeat bg-top w11/12 mx-auto" style="background-image: url(image/gradient-2.png)">
+      <div class="text-white text-center">
+        <div>
+          <h2 class="mb-4">Flexible integrations</h2>
+          <p>AltText.ai can make your job easier, and your website better.</p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-8 w-10/12 mx-auto mt-20 bg-no-repeat "
+          style="background: url(image/gradiant-3.png); background-position: top 50px;">
+          <div class="rounded-2xl p-8 features-box">
+            <div class="flex items-center justify-center mb-10">
+              <img src="image/logo/wordpress.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl mb-5 font-bold">WordPress Plugin</h3>
+              <p class="gray text-base">
+                Automatically generate alt text for every new image you add to
+                your media library. Plus, repair all your existing images with
+              </p>
+            </div>
+          </div>
+          <div class="rounded-2xl p-8 features-box">
+            <div class="flex items-center justify-center mb-10">
+              <img src="image/logo/ecomerce.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl mb-5 font-bold">Ecommerce Platformst</h3>
+              <p class="gray text-base">
+                Our Shopify app and WooCommerce integration intelligently add
+                your product name and brand into the
+              </p>
+            </div>
+          </div>
+          <div class="rounded-2xl p-8 features-box">
+            <div class="flex items-center justify-center mb-10">
+              <img src="image/logo/website.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl mb-5 font-bold">Website & Developer API</h3>
+              <p class="gray text-base">
+                Generate alt text for individual images , or process in bulk
+                via Dropbox or CSV import. Our Developer API lets you add
+              </p>
+            </div>
+          </div>
+          <div class="rounded-2xl p-8 features-box">
+            <div class="flex items-center justify-center mb-10">
+              <img src="image/logo/cms.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl mb-5 font-bold">Headless CMS</h3>
+              <p class="gray text-base">
+                Use our native app for contently or app for Graph to
+                seamlessly add AI-generated alt text to your images within
+              </p>
+            </div>
+          </div>
+          <div class="rounded-2xl p-8 features-box">
+            <div class="flex items-center justify-center mb-10">
+              <img src="image/logo/extextions.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl mb-5 font-bold">Browser Extensions</h3>
+              <p class="gray text-base">
+                The AltText.ai Chrome Extension and Firefox Add-on let you
+                right-click on any image and get alt text
+              </p>
+            </div>
+          </div>
+          <div class="rounded-2xl p-8 features-box">
+            <div class="flex items-center justify-center mb-10">
+              <img src="image/logo/animation.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl mb-5 font-bold">Automations</h3>
+              <p class="gray text-base">
+                We offer pre-built automations in Zapier Pabbly, and Albato.
+                You can hook these up to hundreds of other supported
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features section start  -->
+    <!-- product company start  -->
+    <section>
+      <div class="py-28">
+        <div>
+          <h3 class="text-white text-center  text-2xl font-semibold">Trusted by Top-tier product campanies</h3>
+        </div>
+        <div class="flex items-center  gap-12 justify-center mt-12">
           <div>
-            <a href="#">
-              <img src="image/brand-logo.png" alt="" />
+            <a href="">
+              <img src="image/company-logo/microsoft.png" alt="">
             </a>
           </div>
           <div>
-            <ul class="flex items-center gap-20">
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </div>
-          <div>
-            <div class="flex gap-7">
-              <button class="btn">
-                <a href="#" class="font-medium">Sing In</a>
-              </button>
-              <button class="btn bg-gradiant">
-                <a href="#" class="text-black font-medium">Get Started</a>
-              </button>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <!-- header end  -->
-      <!-- hero section start  -->
-      <section>
-        <div class="hero-section mt-28">
-          <div class="text-center py-2">
-            <h2 class="text-white">Elevate Accessibility with</h2>
-            <h2 class="text-gradient mt-4">AI-Powered Alt Text</h2>
-          </div>
-          <div class="text-center mt-6">
-            <p class="text-theme">
-              Empowering Images with Intelligent Alt Text – AI-Powered
-              Accessibility Made Simple
-            </p>
-          </div>
-          <div class="flex gap-4 justify-center items-center mt-8">
-            <button class="btn bg-gradiant">
-              <a href="#" class="text-black font-medium">Free Trial</a>
-            </button>
-            <button class="btn">
-              <a href="#" class="font-medium">learn More</a>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- hero section end -->
-      <!-- File section start-->
-      <section class="mt-20">
-        <div
-          class="bg-no-repeat bg-center border border-transparent bg-cover rounded-3xl text-white w-11/12 mx-auto flex flex-col justify-center items-center py-10"
-          style="background-image: url(image/bg-1.png)"
-        >
-          <div class="w-4/12">
-            <div
-              class="border-dashed border-2 rounded-lg bg-secondary mt-10 py-5 px-20 flex flex-col justify-center items-center w-full"
-            >
-              <div class="mt-8">
-                <img src="image/file-icon.svg" alt="" />
-              </div>
-              <div class="text-white mt-3">
-                <h4 class="font-semibold text-center">
-                  Click to select or drug add drop
-                </h4>
-                <p class="font-semibold text-xs text-center">
-                  JPG, WebP, GIF, PNG (max 10 mb)
-                </p>
-              </div>
-              <div class="mt-5 flex items-center mb-8">
-                <button class="px-5 py-2 bg-blue rounded-lg shadow-xl">
-                  <span class="font-thin"
-                    ><i class="fa-solid fa-magnifying-glass"></i
-                  ></span>
-                  <span class="ps-1 font-semibold">Choose File</span>
-                </button>
-              </div>
-            </div>
-            <div class="mt-8 w-full cursor-pointer">
-              <div
-                class="border border-sky-400 py-2 px-8 flex rounded-lg items-center justify-between"
-              >
-                <p class="flex items-center">
-                  <span
-                    class="text-white bg-sky-300 h-6 w-6 flex rounded-full items-center justify-center mr-3"
-                    ><i class="fa-solid fa-plus"></i
-                  ></span>
-                  Add custom SEO Keywords
-                </p>
-                <span class="ms-2">Optional</span>
-              </div>
-            </div>
-            <button
-              class="border border-transparent bg-sky-blue py-2 text-black w-full mt-8 rounded-lg font-semibold text-lg"
-            >
-              Generate Alt Text
-              <span class="ps-1"><i class="fa-regular fa-hourglass"></i></span>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- File section end-->
-      <!-- info section start  -->
-      <section>
-        <div class="py-28 w-10/12 mx-auto">
-          <div>
-            <h3 class="text-white text-center mb-20 text-6xl font-semibold">
-              How it works
-            </h3>
-          </div>
-          <div class="text-white sm:grid grid-cols-3 gap-12">
-            <div
-              class="border rounded-lg relative border-transparent"
-              style="z-index: 2"
-            >
-              <div class="w-full flex items-center justify-center h-64 info-bg">
-                <img src="image/info-icon.png" alt="" />
-              </div>
-              <div
-                class="text-white text-center info-bg-1 rounded-lg py-6 px-4"
-              >
-                <h4 class="text-2xl mb-4 font-semibold">Upload an Image</h4>
-                <p class="gray">
-                  Use one of our CMS integrations, browser extension, API, or
-                  web interface. Optionally
-                </p>
-              </div>
-              <!-- <div class="absolute  " style="bottom: 50px;: 0; right: -030px z-index: 1;">
-                            <img src="image/design.png" alt="">
-                        </div> -->
-            </div>
-            <div class=" border border-transparent rounded-lg relative">
-              <div class="w-full flex items-center justify-center h-64 info-bg">
-                <img src="image/info-icon-1.png" alt="" />
-              </div>
-              <div
-                class="text-white text-center info-bg-1 rounded-lg py-6 px-4"
-              >
-                <h4 class="text-2xl mb-4 font-semibold">Image Analysis</h4>
-                <p class="gray">
-                  It only takes a second for our technology to examine the image
-                  and work its magic.
-                </p>
-              </div>
-            </div>
-            <div class=" border rounded-lg border-transparent relative">
-              <div class="w-full flex items-center justify-center h-64 info-bg">
-                <img src="image/info-icon-2.png" alt="" />
-              </div>
-              <div
-                class="text-white text-center info-bg-1 rounded-lg py-6 px-4"
-              >
-                <h4 class="text-2xl mb-4 font-semibold">Text Generation</h4>
-                <p class="gray">
-                  We generate an accurate description of the image, ready to be
-                  used on your site.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- info section end  -->
-      <!-- features section start  -->
-
-      <section
-        class="py-28 bg-no-repeat bg-top w11/12 mx-auto"
-        style="background-image: url(image/gradient-2.png)"
-      >
-        <div class="text-white text-center">
-          <div>
-            <h2 class="mb-4">Flexible integrations</h2>
-            <p>AltText.ai can make your job easier, and your website better.</p>
+            <a href="">
+              <img src="image/company-logo/google.png" alt="">
+            </a>
           </div>
 
-          <div class="grid grid-cols-3 gap-8 w-10/12 mx-auto mt-20 bg-no-repeat " style="background: url(image/gradiant-3.png); background-position: top 50px;">
-            <div class="rounded-2xl p-8 features-box">
-              <div class="flex items-center justify-center mb-10">
-                <img src="image/logo/wordpress.svg" alt="" />
-              </div>
-              <div>
-                <h3 class="text-2xl mb-5 font-bold">WordPress Plugin</h3>
-                <p class="gray text-base">
-                  Automatically generate alt text for every new image you add to
-                  your media library. Plus, repair all your existing images with
-                </p>
-              </div>
-            </div>
-            <div class="rounded-2xl p-8 features-box">
-              <div class="flex items-center justify-center mb-10">
-                <img src="image/logo/ecomerce.svg" alt="" />
-              </div>
-              <div>
-                <h3 class="text-2xl mb-5 font-bold">Ecommerce Platformst</h3>
-                <p class="gray text-base">
-                  Our Shopify app and WooCommerce integration intelligently add
-                  your product name and brand into the
-                </p>
-              </div>
-            </div>
-            <div class="rounded-2xl p-8 features-box">
-              <div class="flex items-center justify-center mb-10">
-                <img src="image/logo/website.svg" alt="" />
-              </div>
-              <div>
-                <h3 class="text-2xl mb-5 font-bold">Website & Developer API</h3>
-                <p class="gray text-base">
-                  Generate alt text for individual images , or process in bulk
-                  via Dropbox or CSV import. Our Developer API lets you add
-                </p>
-              </div>
-            </div>
-            <div class="rounded-2xl p-8 features-box">
-              <div class="flex items-center justify-center mb-10">
-                <img src="image/logo/cms.svg" alt="" />
-              </div>
-              <div>
-                <h3 class="text-2xl mb-5 font-bold">Headless CMS</h3>
-                <p class="gray text-base">
-                  Use our native app for contently or app for Graph to
-                  seamlessly add AI-generated alt text to your images within
-                </p>
-              </div>
-            </div>
-            <div class="rounded-2xl p-8 features-box">
-              <div class="flex items-center justify-center mb-10">
-                <img src="image/logo/extextions.svg" alt="" />
-              </div>
-              <div>
-                <h3 class="text-2xl mb-5 font-bold">Browser Extensions</h3>
-                <p class="gray text-base">
-                  The AltText.ai Chrome Extension and Firefox Add-on let you
-                  right-click on any image and get alt text
-                </p>
-              </div>
-            </div>
-            <div class="rounded-2xl p-8 features-box">
-              <div class="flex items-center justify-center mb-10">
-                <img src="image/logo/animation.svg" alt="" />
-              </div>
-              <div>
-                <h3 class="text-2xl mb-5 font-bold">Automations</h3>
-                <p class="gray text-base">
-                  We offer pre-built automations in Zapier Pabbly, and Albato.
-                  You can hook these up to hundreds of other supported
-                </p>
-              </div>
-            </div>
+          <div>
+            <a href="">
+              <img src="image/company-logo/nvidia.png" alt="">
+            </a>
           </div>
+          <div>
+            <a href="">
+              <img src="image/company-logo/meta.png" alt="">
+            </a>
+          </div>
+
+          <div>
+            <a href="">
+              <img src="image/company-logo/intel.png" alt="">
+            </a>
+          </div>
+
+          <div>
+            <a href="">
+              <img src="image/company-logo/wp.png" alt="">
+            </a>
+          </div>
+
+          <div>
+            <a href="">
+              <img src="image/company-logo/webflow.png" alt="">
+            </a>
+          </div>
+
+
         </div>
-      </section>
-            <!-- features section start  -->
-            <!-- product company start  -->
-            <section>
-              <div class="py-28">
+      </div>
+    </section>
+
+    <!-- Customer testimonials Start -->
+    <section class="py-28 w-10/12 mx-auto">
+      <div>
+        <h2 class="text-center mb-20 text-white font-bold text-5xl">Customer Testimonials</h2>
+      </div>
+      <div class="grid grid-cols-3 gap-8 ">
+        <div>
+          <div class="mb-8">
+            <div class="p-8  rounded-2xl bg-testimonials text-white">
+              <div class="flex items-center mb-6">
+                <div class="me-4">
+                  <img src="assist/person-1.png" alt="">
+                </div>
                 <div>
-                  <h3  class="text-white text-center  text-2xl font-semibold">Trusted by Top-tier product campanies</h3>
-                </div>
-                <div class="flex items-center  gap-12 justify-center mt-12"> 
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/microsoft.png" alt="">
-                    </a>
-                   </div> 
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/google.png" alt="">
-                    </a>
-                   </div> 
-
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/nvidia.png" alt="">
-                    </a>
-                   </div> 
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/meta.png" alt="">
-                    </a>
-                   </div> 
-
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/intel.png" alt="">
-                    </a>
-                   </div> 
-
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/wp.png" alt="">
-                    </a>
-                   </div> 
-
-                   <div>
-                    <a href="">
-                      <img src="image/company-logo/webflow.png" alt="">
-                    </a>
-                   </div> 
-
-
+                  <h4 class="text-base font-semibold">Jane Cooper</h4>
+                  <p class="text-sm"> CEO, Megax Co</p>
                 </div>
               </div>
-            </section>
-    </main>
+              <div>
+                <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis Lorem ipsum dolor sit amet,
+                  consectetur adipiscing</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8  rounded-2xl bg-testimonials text-white">
+            <div class="flex items-center mb-6">
+              <div class="me-4">
+                <img src="assist/person-2.png" alt="">
+              </div>
+              <div>
+                <h4 class="text-base font-semibold">Brooklyn</h4>
+                <p class="text-sm">Web Designer</p>
+              </div>
+            </div>
+            <div>
+              <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis Lorem ipsum dolor sit amet, consectetur
+                adipiscing</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="mb-8">
+            <div class="p-8  rounded-2xl bg-testimonials text-white mb-8">
+              <div class="flex items-center mb-6">
+                <div class="me-4">
+                  <img src="assist/person-3.png" alt="">
+                </div>
+                <div>
+                  <h4 class="text-base font-semibold">Theresa Webb</h4>
+                  <p class="text-sm">Marketing Coordinator</p>
+                </div>
+              </div>
+              <div>
+                <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis </p>
+              </div>
+            </div>
 
-    <!-- fontawsome kit  -->
-    <script
-      src="https://kit.fontawesome.com/4f15d0eb89.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+            <div class="p-8  rounded-2xl bg-testimonials text-white">
+              <div class="flex items-center mb-6">
+                <div class="me-4">
+                  <img src="assist/person-4.png" alt="">
+                </div>
+                <div>
+                  <h4 class="text-base font-semibold">Jacob Jones</h4>
+                  <p class="text-sm">President of Salesr</p>
+                </div>
+              </div>
+              <div>
+                <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="p-8  rounded-2xl bg-testimonials text-white mb-8">
+            <div class="flex items-center mb-6">
+              <div class="me-4">
+                <img src="assist/person-5.png" alt="">
+              </div>
+              <div>
+                <h4 class="text-base font-semibold">Courtney Henry</h4>
+                <p class="text-sm">President of Sales</p>
+              </div>
+            </div>
+            <div>
+              <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis Lorem ipsum dolor sit amet, consectetur
+                adipiscing</p>
+            </div>
+          </div>
+          <div class="p-8  rounded-2xl bg-testimonials text-white">
+            <div class="flex items-center mb-6">
+              <div class="me-4">
+                <img src="assist/person-6.png" alt="">
+              </div>
+              <div>
+                <h4 class="text-base font-semibold">Annette Black</h4>
+                <p class="text-sm">Medical Assistant</p>
+              </div>
+            </div>
+            <div>
+              <p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis Lorem ipsum dolor sit amet, consectetur
+                adipiscing</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="flex justify-center items-center mt-10">
+        <button class="btn">
+          <a href="#" class="font-medium">Learn More</a>
+        </button>
+      </div>
+      </div>
+    </section>
+
+    <!-- trial section start  -->
+    <section class="py-28 w-11/10 mx-auto flex justify-center items-center text-center ">
+      <div>
+        <div>
+          <h3 class="text-5xl mb-2.5 font-bold text-white ">Start your free trial today</h3>
+          <p class="text-xl gray font-bold mb-7 ">Your first 25 images are free. No credit card required.</p>
+        </div>
+        <div>
+          <button class="btn bg-gradiant font-bold
+                    <a href=" #" class="text-black font-medium">Get Started</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section start  -->
+   
+  </main>
+  <footer>
+    <section class=" mx-auto py-20 bg-blue-2">
+      <div>
+        <div class="flex justify-between items-center py-12 border border-transparent rounded-3xl px-16 bg-blue-1 w-9/12 mx-auto shadow-lg">
+          <div>
+            <h3 class="text-2xl font-bold text-white mb-2">Join our newsletter</h3>
+            <p class="gray ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="flex items-center">
+            <div class="me-5 w-3/4">
+              <input type="email" placeholder="Enter your email " class="py-4 ps-7 border rounded-lg text-base   bg-blue-1 w-full outline-none text-white" style="border: 1.5px solid rgba(153, 153, 153, 0.20);">
+            </div>
+            <div class="w-1/4">
+              <button class=" rounded-lg bg-gradiant font-bold  py-4 px-5">
+                      <a href=" #" class="text-black font-medium">Subscribe</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- fontawsome kit  -->
+  <script src="https://kit.fontawesome.com/4f15d0eb89.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

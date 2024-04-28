@@ -78,6 +78,20 @@
 
     .features-box {
         border: 1.5px solid rgba(153, 153, 153, 0.20);
-        background: var(--card2, linear-gradient(145deg, #020E20 9.5%, #03182F 90.5%));
+        background: linear-gradient(145deg, #020E20 9.5%, #03182F 90.5%);
+    }
+    .d-none {
+        display: none;
+    }
+    .bg-testimonials{
+        border: 1.5px solid rgba(153, 153, 153, 0.20);
+        background:  linear-gradient(180deg, #05152D 0%, #000814 100%);
+    }
+    .bg-blue-1 {
+        background: #011129;
+        
+    }
+    .bg-blue-2 {
+        background: #000C1D;
     }
 }
